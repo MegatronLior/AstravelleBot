@@ -16,9 +16,9 @@ const client = new Client({
 });
 
 // ------------------ Variables ------------------
-const CENTRAL_CHANNEL_ID = "TON_CHANNEL_ID";   // Salon du message central
-const CENTRAL_MESSAGE_ID = "TON_MESSAGE_ID";   // Message central
-const pendingRequests = new Map();             // Stocke les demandes en attente
+const CENTRAL_CHANNEL_ID = "1435086064456040518";   // Salon du message central
+const CENTRAL_MESSAGE_ID = "1435147490054766745";   // Message central
+const pendingRequests = new Map();                  // Stocke les demandes en attente
 
 // ------------------ Fonction embed central ------------------
 function createCentralEmbed(embedData = {}) {
